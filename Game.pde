@@ -1,9 +1,3 @@
-Board board;
-Game game;
-void setup() {
-  surface.setSize(450, 300);
-  board = new Board();
-  game = new Game();
 class Game {
   String getJankenResult(String hand) {
     String cpuHand = this.desideCpuHand();
